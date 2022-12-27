@@ -1,0 +1,15 @@
+{
+  "name": "@celesteJS/celeste",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^4.0.0",
+    "prettier": "^2.8.1"
+  },
+  "dependencies": {
+    "@types/node": "^18.11.18",
+    "typescript": "^4.9.4"
+  }
+}
