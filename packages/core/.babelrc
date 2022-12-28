@@ -1,0 +1,13 @@
+{
+    "presets": [
+        [
+            "@babel/preset-env",
+            {
+                "useBuiltIns": "entry", // or "entry"
+                "corejs": 3
+            }
+        ]
+    ],
+    "plugins": [["@babel/transform-runtime"]],
+    "ignore": ["**/*.d.ts"]
+}

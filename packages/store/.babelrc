@@ -1,0 +1,12 @@
+{
+    "presets": [
+        [
+            "@babel/preset-env",
+            {
+                "useBuiltIns": "entry", // or "entry"
+                "corejs": 3
+            }
+        ]
+    ],
+    "ignore": ["**/*.d.ts"]
+}
