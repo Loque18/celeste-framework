@@ -44,7 +44,8 @@
         "typescript": "^4.9.4"
     },
     "peerDependencies": {
-        "web3": "1.x"
+        "web3": "1.x",
+        "@celestejs/store": "^0.1.11"
     },
     "gitHead": "048e8f9a01f82576cbeb28c69d4f83ca02a6e9dd"
 }
