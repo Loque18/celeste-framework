@@ -1,5 +1,5 @@
 {
-    "name": "celeste-js",
+    "name": "celestejs",
     "private": true,
     "workspaces": [
         "packages/*"
