@@ -22,7 +22,7 @@
         "clear": "rmdir /s /q dist && mkdir dist",
         "build": "babel ./lib --out-dir dist",
         "tsc": "tsc",
-        "test": "echo \"Error: run tests from root\" && exit 1"
+        "test": "echo testiing react package"
     },
     "dependencies": {
         "typescript": "^4.9.4"

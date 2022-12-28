@@ -22,7 +22,7 @@
         "clear": "rmdir /s /q dist && mkdir dist",
         "build": "babel ./lib --out-dir dist",
         "tsc": "tsc",
-        "test": "echo \"Error: run tests from root\" && exit 1"
+        "test": "echo testing core package"
     },
     "dependencies": {
         "@babel/runtime": "^7.20.7",
