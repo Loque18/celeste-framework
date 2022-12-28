@@ -1,1 +1,2 @@
-console.log("Welcome to @celeste-js/store!");
+import { store as celesteStore, actions } from '@celeste-js/store';
+import Web3 from 'web3';

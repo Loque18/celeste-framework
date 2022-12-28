@@ -1,5 +1,5 @@
 {
-    "name": "@celeste-js/core",
+    "name": "@celestejs/core",
     "version": "0.0.0",
     "description": "core logic for celesteJS",
     "keywords": [
@@ -25,10 +25,13 @@
         "test": "echo testing core package"
     },
     "dependencies": {
-        "@babel/runtime": "^7.20.7",
-        "typescript": "^4.9.4"
+        "@babel/runtime": "^7.20.7"
     },
     "devDependencies": {
-        "@babel/plugin-transform-runtime": "^7.19.6"
+        "@babel/plugin-transform-runtime": "^7.19.6",
+        "typescript": "^4.9.4"
+    },
+    "peerDependencies": {
+        "web3": "1.x"
     }
 }
