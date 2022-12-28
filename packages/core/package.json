@@ -1,6 +1,6 @@
 {
     "name": "@celestejs/core",
-    "version": "0.1.5",
+    "version": "0.1.6",
     "description": "core logic for celesteJS",
     "keywords": [
         "web3",
