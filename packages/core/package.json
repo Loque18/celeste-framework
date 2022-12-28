@@ -27,6 +27,7 @@
         "dist"
     ],
     "scripts": {
+        "clear0": "rmdir /s /q lib && mkdir lib",
         "clear": "rmdir /s /q dist && mkdir dist",
         "build": "babel ./lib --out-dir dist",
         "tsc": "tsc",
@@ -41,5 +42,6 @@
     },
     "peerDependencies": {
         "web3": "1.x"
-    }
+    },
+    "gitHead": "6d308fe5025e06ba0fa43f7ce6d3add402858816"
 }

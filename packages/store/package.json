@@ -35,5 +35,6 @@
     "dependencies": {
         "redux": "^4.2.0",
         "typescript": "^4.9.4"
-    }
+    },
+    "gitHead": "6d308fe5025e06ba0fa43f7ce6d3add402858816"
 }

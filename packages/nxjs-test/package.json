@@ -13,5 +13,6 @@
     "files": [
         "lib"
     ],
-    "scripts": {}
+    "scripts": {},
+    "gitHead": "6d308fe5025e06ba0fa43f7ce6d3add402858816"
 }
