@@ -12,11 +12,11 @@
     "main": "dist/index.js",
     "repository": {
         "type": "git",
-        "url": "",
+        "url": "https://github.com/Loque18/celeste-framework",
         "directory": "packages/store"
     },
     "bugs": {
-        "url": ""
+        "url": "https://github.com/Loque18/celeste-framework/issues"
     },
     "directories": {
         "lib": "lib",
