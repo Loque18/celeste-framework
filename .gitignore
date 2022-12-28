@@ -3,4 +3,3 @@ lerna-debug.log
 npm-debug.log
 packages/*/lib
 packages/*/dist
-packages/nxjs-test
