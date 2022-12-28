@@ -1,6 +1,6 @@
 {
     "name": "@celestejs/react",
-    "version": "0.1.7",
+    "version": "0.1.8",
     "description": "react support for celeste-js",
     "keywords": [
         "web3",
