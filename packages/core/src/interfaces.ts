@@ -20,3 +20,13 @@ export interface CelesteConfig {
         [key: string]: string;
     };
 }
+
+export interface Window {
+    ethereum: any;
+}
+
+declare global {
+    export interface Window {
+        ethereum: any;
+    }
+}
