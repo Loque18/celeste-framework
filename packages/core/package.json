@@ -37,16 +37,14 @@
         "test": "echo testing core package"
     },
     "dependencies": {
-        "@babel/runtime": "^7.20.7"
+        "@babel/runtime": "^7.20.7",
+        "@celestejs/store": "^0.1.11",
+        "@walletconnect/web3-provider": "^1.8.0",
+        "web3": "^1.8.1"
     },
     "devDependencies": {
         "@babel/plugin-transform-runtime": "^7.19.6",
         "typescript": "^4.9.4"
-    },
-    "peerDependencies": {
-        "@celestejs/store": "^0.1.11",
-        "web3": "1.x",
-        "@walletconnect/web3-provider": "1.x"
     },
     "gitHead": "048e8f9a01f82576cbeb28c69d4f83ca02a6e9dd"
 }
