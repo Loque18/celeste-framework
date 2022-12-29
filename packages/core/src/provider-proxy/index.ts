@@ -12,10 +12,18 @@ const StrategiesMap = {
     [providers.CONNECTED]: new LinkedProviderStrategy(),
 };
 
+interface IProviders {
+    INJECTED: null;
+    CONNECTED: null;
+}
+
 class ProviderProxy {
     private currentType: string;
     private context: ProviderContext;
-    private providers: {};
+    private providers: IProviders = {
+        INJECTED: null,
+        CONNECTED: null,
+    };
 
     constructor(rpcs: Rpc[]) {
         this.currentType = providers.INJECTED;
