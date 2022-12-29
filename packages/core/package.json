@@ -45,7 +45,8 @@
     },
     "peerDependencies": {
         "@celestejs/store": "^0.1.11",
-        "web3": "1.x"
+        "web3": "1.x",
+        "@walletconnect/web3-provider": "1.x"
     },
     "gitHead": "048e8f9a01f82576cbeb28c69d4f83ca02a6e9dd"
 }
