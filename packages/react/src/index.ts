@@ -1,1 +1,1 @@
-console.log("Welcome to @celeste-js/store!");
+console.log('Welcome to @celeste-js/react!');
