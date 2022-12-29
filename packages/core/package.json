@@ -44,7 +44,7 @@
         "typescript": "^4.9.4"
     },
     "peerDependencies": {
-        "@celestejs/store": "^0.1.15",
+        "@celestejs/store": "^0.x",
         "@walletconnect/web3-provider": "^1.8.0",
         "web3": "^1.8.1"
     },
