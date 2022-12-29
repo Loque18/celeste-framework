@@ -1,6 +1,6 @@
 {
     "name": "@celestejs/core",
-    "version": "0.1.13",
+    "version": "0.1.15",
     "description": "core logic for celesteJS",
     "keywords": [
         "web3",
@@ -38,7 +38,7 @@
     },
     "dependencies": {
         "@babel/runtime": "^7.20.7",
-        "@celestejs/store": "^0.1.11",
+        "@celestejs/store": "^0.1.15",
         "@walletconnect/web3-provider": "^1.8.0",
         "web3": "^1.8.1"
     },
