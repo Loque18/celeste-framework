@@ -20,7 +20,7 @@ interface IProviders {
 class ProviderProxy {
     private currentType: string;
     private context: ProviderContext;
-    private providers: IProviders = {
+    private _providers: IProviders = {
         INJECTED: null,
         CONNECTED: null,
     };
@@ -39,13 +39,13 @@ class ProviderProxy {
 
             try {
                 // instantiate providers
-                this.providers[providerType] = provider.getProvider(rpcs);
+                this._providers[providerType] = provider.getProvider(rpcs);
             } catch (e) {
                 // handle error
                 // eslint-disable-next-line no-console
                 console.warn(`Provider of type ${providerType} not found`);
 
-                this.providers[providerType] = null;
+                this._providers[providerType] = null;
             }
         });
 
@@ -55,7 +55,7 @@ class ProviderProxy {
 
     getProvider(type: string): any {
         validateProviderType(type);
-        return this.providers[type];
+        return this._providers[type];
     }
 
     // api
@@ -67,22 +67,22 @@ class ProviderProxy {
 
     // *~~*~~*~~*~~*~~* Wallet methods *~~*~~*~~*~~*~~* //
     async requestConnection(): Promise<void> {
-        await this.context.requestConnection(this.providers[this.currentType]);
+        await this.context.requestConnection(this._providers[this.currentType]);
     }
 
     async requestDisconnection(): Promise<void> {
         // prettier-ignore
-        await this.context.requestDisconnection(this.providers[this.currentType]);
+        await this.context.requestDisconnection(this._providers[this.currentType]);
     }
 
     async requestChangeNetwork(chainId: number): Promise<void> {
         // prettier-ignore
-        await this.context.requestChangeNetwork(this.providers[this.currentType], chainId);
+        await this.context.requestChangeNetwork(this._providers[this.currentType], chainId);
     }
 
     async getPreviousSession(): Promise<any> {
         const connection = await this.context.getPreviosSession(
-            this.providers[this.currentType]
+            this._providers[this.currentType]
         );
         return connection;
     }
