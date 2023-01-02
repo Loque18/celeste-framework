@@ -1,6 +1,6 @@
 {
     "name": "@celestejs/core",
-    "version": "0.5.8",
+    "version": "0.6.0",
     "description": "core logic for celesteJS",
     "keywords": [
         "web3",
@@ -32,6 +32,7 @@
     "scripts": {
         "clear0": "rmdir /s /q lib && mkdir lib",
         "clear": "rmdir /s /q dist && mkdir dist",
+        "copy": "xcopy C:\\Users\\DELL\\Documents\\orcania\\celeste-ts\\packages\\core\\dist C:\\Users\\DELL\\Documents\\orcania\\celeste-mt\\src\\components\\celeste\\core-dist /E/H/C/I/Y",
         "build": "babel ./lib --out-dir dist",
         "tsc": "tsc",
         "test": "echo testing core package"
